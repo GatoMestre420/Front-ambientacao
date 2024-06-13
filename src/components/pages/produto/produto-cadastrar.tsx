@@ -46,31 +46,21 @@ function ProdutoCadastrar(){
                 onChange={(e : any) => setNome(e.target.value) }
                 required 
                 />{" "}
-                <button type="submit">Cadastrar Produto</button>
-            </form>
-
-            <form onSubmit={cadastrarProduto}>
+            
                 <label>Descrição: </label>
                 <input type="text"
                 value={descricao} 
                 onChange={(e : any) => setDescricao(e.target.value) }
                 required 
                 />{" "}
-                <button type="submit">Cadastrar Produto</button>
-            </form>
-
-            <form onSubmit={cadastrarProduto}>
+               
                 <label>Quantidade: </label>
                 <input type="text"
                 value={quantidade} 
                 onChange={(e : any) => setQuantidade(e.target.value) }
                 required 
                 />{" "}
-                <button type="submit">Cadastrar Produto</button>
-            </form>
-
-            
-            <form onSubmit={cadastrarProduto}>
+                
                 <label>Valor: </label>
                 <input type="text"
                 value={valor} 
